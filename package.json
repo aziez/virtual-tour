@@ -9,8 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "antd": "^4.23.0",
+    "bootstrap": "^5.2.1",
     "next": "12.2.5",
     "photo-sphere-viewer": "^4.7.1",
+    "popper.js": "^1.16.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },

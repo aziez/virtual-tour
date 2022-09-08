@@ -4,23 +4,14 @@
   /* padding: 0 2rem; */
 }
 
-.btn{
-  display: inline-block;
-  font-size: 1.2rem;
-  color: #fff;
-  background-color: #f7ed2470;
-  padding: 0.8rem 5rem;
-  border-radius: 3rem;
-  -webkit-transition: background-color .1s ease;
-  transition: background-color .1s ease;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  /* border-bottom: 1px solid #2476ff; */
-  pointer-events: auto;
+.Head{
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .hero{
-      position: absolute;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -39,6 +30,19 @@
     pointer-events: none;
 }
 
+
+.hero button{
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 0.8rem 5rem;
+  -webkit-transition: background-color .1s ease;
+  transition: background-color .1s ease;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  pointer-events: auto;
+}
+
 .main {
   position: relative;
   min-height: 100vh;
@@ -48,22 +52,52 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  pointer-events: none;
+  
 }
 
 .footer {
+  position: absolute;
   display: flex;
+  height: 10%;
+  min-height: 50px;
+  /* z-index: 2; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  /* -webkit-box-pack: center; */
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  pointer-events: none;
   flex: 1;
-  padding: 2rem 0;
+  width: 100%;
+  padding: 2rem 2rem;
   border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
+  bottom: 0;
+  left: 0;
 }
 
-.footer a {
+.footer p {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
-  flex-grow: 1;
+  flex-grow: 2;
+  margin-left: 5px;
+}
+
+.footer button{
+  position: absolute;
+  display: flex;
+  justify-content: right;
+  right: 0;
+  margin: 2rem;
+  background-color: #0071f34f;
+  color: white;
+  pointer-events: auto;
 }
 
 .title a {

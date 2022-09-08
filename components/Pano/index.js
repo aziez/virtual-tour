@@ -6,14 +6,14 @@ import styles from './pano.module.css'
 
 export default function Pano(props){
     const view = React.useRef();
-    let navbar;
 
     useEffect(() => {
         let viewer = new Viewer({
             container: view.current,
             panorama: props.pano,
+            caption: props.caption,
             loadingImg: props.load,
-            loadingTxt: 'Memuat Virtual Tour',
+            loadingTxt: props.loadtxt,
             autorotateDelay: props.rotate,
             autorotateIdle: true
         })

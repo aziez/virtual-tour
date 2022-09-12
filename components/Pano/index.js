@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { Viewer } from "photo-sphere-viewer";
 import React, { useEffect } from "react";
 import styles from './pano.module.css'
@@ -6,19 +7,21 @@ import styles from './pano.module.css'
 
 export default function Pano(props){
     const view = React.useRef();
+    let viewer;
 
     useEffect(() => {
-        let viewer = new Viewer({
+    viewer = new Viewer({
             container: view.current,
             panorama: props.pano,
             caption: props.caption,
             loadingImg: props.load,
             loadingTxt: props.loadtxt,
             autorotateDelay: props.rotate,
-            autorotateIdle: true
+            autorotateIdle: true,
+            navbar: props.nav
         })
 //ON VIEWER 360 READY
-        viewer.once('ready', () => {
+    viewer.once('ready', () => {
             console.log('viewer telah READY');
             viewer.navbar.hide();
         })

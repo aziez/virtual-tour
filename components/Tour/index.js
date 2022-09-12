@@ -1,18 +1,21 @@
 import { Viewer } from "photo-sphere-viewer";
 import { useEffect, useRef } from "react";
+import Pano from "../Pano"
 
 
 
 export default function Tour(props){
-    const elemen = useRef();
+    const panoImg = "https://photo-sphere-viewer-data.netlify.app/assets/";
+    // const viewer = Pano.viewer;
+    // useEffect(() => {
+    //     viewer.navbar = ['autorotate', 'zoom', 'Descriptions']
+    // })
+
+    return (
+        <>
+        <Pano pano={panoImg + 'sphere.jpg'} load={panoImg + 'loader.gif'} rotate={300} />
+        </>
+    )
 
 
-    useEffect(() => {
-        let tour = new Viewer({
-            container: elemen.current,
-            loadingImg: props.imgLoad,
-            loadingTxt: props.loadTxt,
-            
-        })
-    })
  }

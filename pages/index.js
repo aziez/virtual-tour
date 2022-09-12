@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Pano from '../components/Pano';
 import styles from '../styles/Home.module.css'
 import { useState } from 'react';
+import Link from 'next/link';
 
 
 export default function Home() {
@@ -56,7 +57,9 @@ export default function Home() {
               <code className={styles.code}>Jelajahi Lingkungan Universitas Pamulang secara Virtual</code>
             </p>
           </div>
+          <Link href="/tour">
           <button type="button" className="btn btn-outline-info btn-lg" onClick={handleClick}>Mulai</button>
+          </Link>
         </main>
 
         <div className={styles.footer}>

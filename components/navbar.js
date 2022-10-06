@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import { Viewer } from "photo-sphere-viewer"
 import {LeftSquareTwoTone} from '@ant-design/icons'
 import { Button, Space } from 'antd';

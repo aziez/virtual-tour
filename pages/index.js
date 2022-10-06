@@ -45,7 +45,7 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <Pano pano={panoImg + 'sphere.jpg'} load={panoImg + 'loader.gif'} rotate={300} />
+        <Pano className={styles.pano} pano={'360/14.jpg'} load={panoImg + 'loader.gif'} rotate={300} zoom={0}/>
 
         <main className={styles.hero}>
           <div className={styles.card}>
@@ -60,6 +60,7 @@ export default function Home() {
           <Link href="/tour">
           <button type="button" className="btn btn-outline-info btn-lg" onClick={handleClick}>Mulai</button>
           </Link>
+          
         </main>
 
         <div className={styles.footer}>
@@ -68,6 +69,8 @@ export default function Home() {
           <button type="button" className="btn btn-outline-primary" onClick={showModal}>Visi dan Misi</button>
         </div>
       </div>
+
+     
 
       <Modal title="UNIVERSITAS PAMULANG" open={isModalOpen} onOk={handleOk} onCancel={handleCancel} footer={[]} width={1000} centered={true}>
         <h3 className={styles.Head}> Misi </h3>

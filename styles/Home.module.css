@@ -10,6 +10,15 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.pano{
+  position: absolute;
+
+}
+
+.btn{
+  position: absolute;
+}
+
 .hero{
     position: absolute;
     top: 0;

@@ -22,7 +22,7 @@ export default function Tour() {
             navbar: nav,
             plugins: [
                 [MarkersPlugin, {markers: markers}],
-                [VirtualTourPlugin, {positionMode: VirtualTourPlugin.MODE_GPS, renderMode: VirtualTourPlugin.MODE_3D}],
+                [VirtualTourPlugin, {positionMode: VirtualTourPlugin.MODE_MANUAL, renderMode: VirtualTourPlugin.MODE_3D}],
                 [GyroscopePlugin, {absolutePosition: false}],
                 [StereoPlugin, {}]
             ]

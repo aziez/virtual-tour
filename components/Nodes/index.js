@@ -49,8 +49,8 @@ import { markers } from "../Marker";
         name    : 'View 3',
         caption : 'Pintu Masuk Motor 2',
         links   : [
-            { nodeId: '2', longitude: 3.0629, latitude: -0.0407 },
-            { nodeId: '4', longitude: 6.1985, latitude: -0.0360 },
+            { nodeId: '2', longitude: 2.0606, latitude: -0.1788 },
+            { nodeId: '4', longitude: 0.46535, latitude: -0.13986 },
         ],
     },
     {
@@ -60,8 +60,8 @@ import { markers } from "../Marker";
         name    : 'View 4',
         caption : 'Kantin Belakang 1',
         links   : [
-            { nodeId: '3', longitude: 3.0629, latitude: -0.0407 },
-            { nodeId: '5', longitude: 6.1985, latitude: -0.0360 },
+            { nodeId: '3', longitude: 3.2936, latitude: -0.0227 },
+            { nodeId: '5', longitude: 0.1511, latitude: -0.0541 },
         ],
     },
     {
@@ -71,8 +71,8 @@ import { markers } from "../Marker";
         name    : 'View 5',
         caption : 'Kantin Belakang 2',
         links   : [
-            { nodeId: '4', longitude: 3.0629, latitude: -0.0407 },
-            { nodeId: '6', longitude: 6.1985, latitude: -0.0360 },
+            { nodeId: '4', longitude: 3.6092, latitude: 0.0544 },
+            { nodeId: '6', longitude: 0.4694, latitude: -0.0680 },
         ],
     },
     {
@@ -82,8 +82,8 @@ import { markers } from "../Marker";
         name    : 'View 6',
         caption : 'Kantin Belakang 3',
         links   : [
-            { nodeId: '5', longitude: 3.0629, latitude: -0.0407 },
-            { nodeId: '7', longitude: 6.1985, latitude: -0.0360 },
+            { nodeId: '5', longitude: 3.6045, latitude: 0.0854 },
+            { nodeId: '7', longitude: 0.4737, latitude: -0.0984 },
         ],
     },
     {
@@ -93,7 +93,7 @@ import { markers } from "../Marker";
         name    : 'View 7',
         caption : 'Pintu Masuk Parkir 1',
         links   : [
-            { nodeId: '6', longitude: 3.0629, latitude: -0.0407 },
+            { nodeId: '6', longitude: 1.6212, latitude: -0.1132 },
             { nodeId: '8', longitude: 6.1985, latitude: -0.0360 },
         ],
     },
@@ -104,8 +104,8 @@ import { markers } from "../Marker";
         name    : 'View 8',
         caption : 'Pintu Masuk Parkir 2',
         links   : [
-            { nodeId: '7', longitude: 3.0629, latitude: -0.0407 },
-            { nodeId: '9', longitude: 6.1985, latitude: -0.0360 },
+            { nodeId: '7', longitude: 4.2296, latitude: -0.0148 },
+            { nodeId: '9', longitude: 1.0723, latitude: -0.1064 },
         ],
     },
     {
@@ -115,8 +115,8 @@ import { markers } from "../Marker";
         name    : 'View 9',
         caption : 'Pintu Parkir Mobil',
         links   : [
-            { nodeId: '8', longitude: 3.0629, latitude: -0.0407 },
-            { nodeId: '10', longitude: 6.1985, latitude: -0.0360 },
+            { nodeId: '8', longitude: 0.5809, latitude: -0.0453 },
+            { nodeId: '10', longitude:  3.9596, latitude: -0.1319 },
         ],
     },
     {
@@ -126,8 +126,8 @@ import { markers } from "../Marker";
         name    : 'View 10',
         caption : 'Pintu Parkir Mobil 2',
         links   : [
-            { nodeId: '9', longitude: 3.0629, latitude: -0.0407 },
-            { nodeId: '11', longitude: 6.1985, latitude: -0.0360 },
+            { nodeId: '9', longitude: 2.2634, latitude: -0.1033 },
+            { nodeId: '11', longitude: 4.7438, latitude: -0.0905 },
         ],
     },
     {
@@ -137,8 +137,8 @@ import { markers } from "../Marker";
         name    : 'View 11',
         caption : 'Gate Entrance Gedung B',
         links   : [
-            { nodeId: '10', longitude: 3.0629, latitude: -0.0407 },
-            { nodeId: '12', longitude: 6.1985, latitude: -0.0360 },
+            { nodeId: '10', longitude: 2.6723, latitude: -0.0481 },
+            { nodeId: '12', longitude: 3.5265, latitude: 0.0478 },
         ],
     },
     {
@@ -148,8 +148,8 @@ import { markers } from "../Marker";
         name    : 'View 12',
         caption : 'Taman',
         links   : [
-            { nodeId: '11', longitude: 3.0629, latitude: -0.0407 },
-            { nodeId: '13', longitude: 6.1985, latitude: -0.0360 },
+            { nodeId: '11', longitude: 5.9228, latitude: -0.0510 },
+            { nodeId: '13', longitude: 0.0635, latitude: -0.0451 },
         ],
     },
     {
@@ -159,7 +159,7 @@ import { markers } from "../Marker";
         name    : 'View 13',
         caption : 'Taman 2',
         links   : [
-            { nodeId: '12', longitude: 3.0629, latitude: -0.0407 },
+            { nodeId: '12', longitude: 4.8839, latitude: 0.0130 },
             { nodeId: '14', longitude: 6.1985, latitude: -0.0360 },
         ],
     },
@@ -171,7 +171,7 @@ import { markers } from "../Marker";
         caption : 'Taman 3',
         links   : [
             { nodeId: '13', longitude: 3.0629, latitude: -0.0407 },
-            { nodeId: '15', longitude: 6.1985, latitude: -0.0360 },
+            { nodeId: '15', longitude: 1.9695, latitude: 0.0915 },
         ],
     },
     {
@@ -179,9 +179,9 @@ import { markers } from "../Marker";
         panorama: base+15+ext,
         thumbnail: base+15+ext,
         name    : 'View 15',
-        caption : 'Pintu Masuk Gedung A',
+        caption : 'Taman Atas',
         links   : [
-            { nodeId: '14', longitude: 3.0629, latitude: -0.0407 },
+            { nodeId: '14', longitude: 1.4715, latitude: -0.3426 },
             // { nodeId: '15', longitude: 6.1985, latitude: -0.0360 },
         ],
     },

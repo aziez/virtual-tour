@@ -57,7 +57,7 @@ export default function Home() {
               <code className={styles.code}>Jelajahi Lingkungan Universitas Pamulang secara Virtual</code>
             </p>
           </div>
-          <Link href="/tour">
+          <Link href="/selection">
           <button type="button" className="btn btn-outline-info btn-lg" onClick={handleClick}>Mulai</button>
           </Link>
           

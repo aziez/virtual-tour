@@ -135,7 +135,7 @@ import { markers } from "../Marker";
         panorama: base+11+ext,
         thumbnail: base+11+ext,
         name    : 'View 11',
-        caption : 'Gate Entrance Gedung B',
+        caption : 'Gate Exit',
         links   : [
             { nodeId: '10', longitude: 2.6723, latitude: -0.0481 },
             { nodeId: '12', longitude: 3.5265, latitude: 0.0478 },

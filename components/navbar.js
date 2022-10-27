@@ -4,18 +4,21 @@ import {LeftSquareTwoTone} from '@ant-design/icons'
 import { Button, Space } from 'antd';
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { LeftSquareOutlined } from '@ant-design/icons'
 
 export default function navbar(props){
+    var icns = <Space><LeftSquareOutlined/></Space>
     let autorotate =  'autorotate' 
     let zoom = 'zoom'
     let move = 'move'
     let cap = 'caption'
     let fc = 'fullscreen'
-    let icon =   'back'
+    let icon = icns 
+    let gl = 'gallery'
     const router = useRouter();
 
     let backBtn = {id: 'backBtn', content: icon, title: 'Kembali', className: 'backBtn', onClick: () => {
-        router.push('/')
+        router.push('/selection')
     }}
 
     // const handleBack = () => {
@@ -29,6 +32,7 @@ export default function navbar(props){
         zoom,
         move,
         cap,
+        gl,
         fc,
         backBtn
     ];

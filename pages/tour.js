@@ -32,6 +32,8 @@ export default function Tour() {
         var exterior = viewer.getPlugin(VirtualTourPlugin);
         exterior.setNodes(Exterior)
 
+        viewer.navbar.getButton('backBtn').show()
+
         viewer.once('ready', () => {
             console.log('viewer telah READY');
             // viewer.navbar.show();

@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import "photo-sphere-viewer/dist/plugins/markers.css";
 import "photo-sphere-viewer/dist/photo-sphere-viewer.css";
+import 'photo-sphere-viewer/dist/plugins/gallery';
 import 'bootstrap/dist/css/bootstrap.css'
 import Head from 'next/head';
 import 'antd/dist/antd.css'; //
